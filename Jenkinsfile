@@ -3,7 +3,7 @@ pipeline {
     environment {
         TF_VAR_gcp_project = "qwiklabs-gcp-01-ea3db84121f0"
         TF_VAR_bucket = "tf-remote-state-student_04_65a21aa7a648-16993-14394"
-        REPOSITORY = "https://github.com/<your_username>/cicd02-starter"
+        REPOSITORY = "https://github.com/markcicd/cicd-starter"
         TF_VAR_pubkey_path = "${WORKSPACE}/ansible_key.pub"
     }
     stages {
