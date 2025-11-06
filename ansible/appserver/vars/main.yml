@@ -1,2 +1,3 @@
 ---
 # vars file for appserver
+repository_url: "https://github.com/markcicd/cicd-starter"
